@@ -1,0 +1,45 @@
+[
+  {
+    "name": "A browser open with {string}",
+    "type": "open",
+    "auth": false,
+    "sleep": 7000,
+    "screenShot": true
+  },
+  {
+    "name": "I find My Account link",
+    "type": "find_text",
+    "xpath": "//*[@id='label-myAccount']//span",
+    "keyHolder": "elementValue",
+    "sleep": 3000,
+    "screenShot": false
+  },
+  {
+    "name": "I should see {string}",
+    "type": "validate",
+    "dependent": "elementValue",
+    "screenShot": true
+  },
+  {
+    "name": "I am in the home page of cucumber.io",
+    "type": "open",
+     "value": "https://cucumber.io/",
+    "auth": false,
+    "sleep": 7000,
+    "screenShot": true
+  },
+  {
+    "name": "I do click in the button learn behavior driver development",
+    "type": "click",
+    "xpath": "//*[@id=\"block-yui_3_17_2_1_1533375529341_8854\"]/div/div/a",
+    "sleep": 3000,
+    "screenShot": false
+  },
+  {
+    "name": "I Should be redirect to to BDD training page",
+    "type": "validate_url",
+    "value": "https://cucumber.io/training",
+    "dependent": "elementValue",
+    "screenShot": true
+  }
+]

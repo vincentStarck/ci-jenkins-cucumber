@@ -1,0 +1,14 @@
+outPutScreenShot: "/Users/ezepedaj/Documents/output-testing/"
+souceLabUserName: "dana.jmdg12"
+souceLabKey: "7c4fd03c-6a91-4098-8a67-51b1a8bce91a"
+webDriverRemoteConnection: false
+browsers:
+  chrome:
+    pathDriver: "/Users/ezepedaj/Documents/selelium-webdrivers/chrome-webdriver-v74/chromedriver"
+    setProperty: "webdriver.chrome.driver"
+
+
+
+
+
+

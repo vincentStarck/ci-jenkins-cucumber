@@ -1,0 +1,29 @@
+<suite name="softwaretestingmaterial" parallel="tests">
+    <test name="chrome">
+        <classes>
+            <class name="com.aexp.browsertest.runner.RunnerTest">
+                <parameter name="browser" value="Chrome"/>
+                <parameter name="os" value="macOS 10.13"/>
+                <parameter name="version" value="74.0"/>
+            </class>
+        </classes>
+    </test>
+    <!--<test name="firefox">-->
+        <!--<classes>-->
+            <!--<class name="com.aexp.browsertest.runner.RunnerTest">-->
+                <!--<parameter name="browser" value="firefox"/>-->
+                <!--<parameter name="os" value="macOS 10.13"/>-->
+                <!--<parameter name="version" value="66.0"/>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Safari">-->
+        <!--<classes>-->
+            <!--<class name="com.aexp.browsertest.runner.RunnerTest">-->
+                <!--<parameter name="browser" value="Safari"/>-->
+                <!--<parameter name="os" value="macOS 10.13"/>-->
+                <!--<parameter name="version" value="11.1"/>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

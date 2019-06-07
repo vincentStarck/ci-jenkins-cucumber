@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [softwaretestingmaterial]" parallel="tests">
+  <test thread-count="5" verbose="0" name="chrome(failed)" parallel="tests">
+    <classes>
+      <class name="com.aexp.browsertest.runner.RunnerTest">
+        <parameter name="os" value="macOS 10.13"/>
+        <parameter name="version" value="74.0"/>
+        <parameter name="browser" value="Chrome"/>
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.aexp.browsertest.runner.RunnerTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
